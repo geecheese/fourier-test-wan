@@ -1,0 +1,17 @@
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.log
+*.out
+__pycache__/
+.pytest_cache/
+.vscode/
+runs/
+checkpoints/
+artifacts/
+tmp/
+.DS_Store

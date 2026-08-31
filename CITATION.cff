@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this research snapshot, cite this repository and the upstream WAN project."
+title: "WAN with Fourier Test Spaces and DFR Evaluation"
+type: software
+authors:
+  - name: "Project contributors"
+license: MIT
+abstract: "A reviewable research snapshot comparing learned neural test functions with fixed Fourier test spaces and DFR residual evaluation."

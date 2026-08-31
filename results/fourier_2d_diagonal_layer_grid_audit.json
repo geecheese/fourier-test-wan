@@ -1,0 +1,1160 @@
+{
+  "basis_normalization": "phi_kl=(2/pi)sin(kx)sin(ly)",
+  "beta": 20.0,
+  "calibration_results": [
+    {
+      "calibration_tolerance": 0.005,
+      "cases": [
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.011960784898528209,
+          "mode": [
+            1,
+            1
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.015860313246445656,
+          "target_projection_coefficient": 1.0158603132464457
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.045147238781292016,
+          "mode": [
+            3,
+            5
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.012606081401812519,
+          "target_projection_coefficient": 1.0126060814018125
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.06684377126415267,
+          "mode": [
+            8,
+            7
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.004612067299912592,
+          "target_projection_coefficient": 1.0046120672999126
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.1305912709566907,
+          "mode": [
+            16,
+            15
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.031890752947761114,
+          "target_projection_coefficient": 0.9681092470522389
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.268874461668019,
+          "mode": [
+            32,
+            31
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.16876105045904666,
+          "target_projection_coefficient": 0.8312389495409533
+        }
+      ],
+      "derived_2d_scale": "(sqrt(2/n)*sqrt(pi/n))^2=2*pi/n^2, equal to normalized midpoint quadrature scale",
+      "dst_assumed_points": "x_j=(j+1/2)*pi/(grid_size-2), j=0,...,grid_size-3",
+      "grid_size": 64,
+      "interior_points_per_axis": 62,
+      "physical_points": "x_j=j*pi/(grid_size-1), j=1,...,grid_size-2"
+    },
+    {
+      "calibration_tolerance": 0.005,
+      "cases": [
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.005918180950068501,
+          "mode": [
+            1,
+            1
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.007870184308716555,
+          "target_projection_coefficient": 1.0078701843087166
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.022680749903918072,
+          "mode": [
+            3,
+            5
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.007061231706479765,
+          "target_projection_coefficient": 1.0070612317064798
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.034115929944126926,
+          "mode": [
+            8,
+            7
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.00506649786430291,
+          "target_projection_coefficient": 1.005066497864303
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.06258041114035649,
+          "mode": [
+            16,
+            15
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.004181780495340348,
+          "target_projection_coefficient": 0.9958182195046597
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.13329677316867417,
+          "mode": [
+            32,
+            31
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.041237819785042706,
+          "target_projection_coefficient": 0.9587621802149573
+        }
+      ],
+      "derived_2d_scale": "(sqrt(2/n)*sqrt(pi/n))^2=2*pi/n^2, equal to normalized midpoint quadrature scale",
+      "dst_assumed_points": "x_j=(j+1/2)*pi/(grid_size-2), j=0,...,grid_size-3",
+      "grid_size": 128,
+      "interior_points_per_axis": 126,
+      "physical_points": "x_j=j*pi/(grid_size-1), j=1,...,grid_size-2"
+    },
+    {
+      "calibration_tolerance": 0.005,
+      "cases": [
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.0029441873150959255,
+          "mode": [
+            1,
+            1
+          ],
+          "status": "PASS",
+          "target_absolute_error": 0.00392053490649702,
+          "target_projection_coefficient": 1.003920534906497
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.011367003426313284,
+          "mode": [
+            3,
+            5
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0037189840101621296,
+          "target_projection_coefficient": 1.0037189840101621
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.017215496480506257,
+          "mode": [
+            8,
+            7
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0032215495422958096,
+          "target_projection_coefficient": 1.0032215495422958
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.03224708752750972,
+          "mode": [
+            16,
+            15
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0009070443415697405,
+          "target_projection_coefficient": 1.0009070443415697
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.06418733818716577,
+          "mode": [
+            32,
+            31
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.008506802456702434,
+          "target_projection_coefficient": 0.9914931975432976
+        }
+      ],
+      "derived_2d_scale": "(sqrt(2/n)*sqrt(pi/n))^2=2*pi/n^2, equal to normalized midpoint quadrature scale",
+      "dst_assumed_points": "x_j=(j+1/2)*pi/(grid_size-2), j=0,...,grid_size-3",
+      "grid_size": 256,
+      "interior_points_per_axis": 254,
+      "physical_points": "x_j=j*pi/(grid_size-1), j=1,...,grid_size-2"
+    },
+    {
+      "calibration_tolerance": 0.005,
+      "cases": [
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.0019595401809300427,
+          "mode": [
+            1,
+            1
+          ],
+          "status": "PASS",
+          "target_absolute_error": 0.0026104957687536068,
+          "target_projection_coefficient": 1.0026104957687536
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.007583866481620985,
+          "mode": [
+            3,
+            5
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.002521026057793474,
+          "target_projection_coefficient": 1.0025210260577935
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.01151026528357739,
+          "mode": [
+            8,
+            7
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0023001759758825013,
+          "target_projection_coefficient": 1.0023001759758825
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.021693961041255736,
+          "mode": [
+            16,
+            15
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0012719263648990342,
+          "target_projection_coefficient": 1.001271926364899
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.04205407921652451,
+          "mode": [
+            32,
+            31
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.002921577049616708,
+          "target_projection_coefficient": 0.9970784229503833
+        }
+      ],
+      "derived_2d_scale": "(sqrt(2/n)*sqrt(pi/n))^2=2*pi/n^2, equal to normalized midpoint quadrature scale",
+      "dst_assumed_points": "x_j=(j+1/2)*pi/(grid_size-2), j=0,...,grid_size-3",
+      "grid_size": 384,
+      "interior_points_per_axis": 382,
+      "physical_points": "x_j=j*pi/(grid_size-1), j=1,...,grid_size-2"
+    },
+    {
+      "calibration_tolerance": 0.005,
+      "cases": [
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.0014684441536512271,
+          "mode": [
+            1,
+            1
+          ],
+          "status": "PASS",
+          "target_absolute_error": 0.0019566796107599593,
+          "target_projection_coefficient": 1.00195667961076
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.005690089373367299,
+          "mode": [
+            3,
+            5
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.001906384074704226,
+          "target_projection_coefficient": 1.0019063840747042
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.00864492124931413,
+          "mode": [
+            8,
+            7
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0017822258764994547,
+          "target_projection_coefficient": 1.0017822258764995
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.016341447693189112,
+          "mode": [
+            16,
+            15
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.001204032621147988,
+          "target_projection_coefficient": 1.001204032621148
+        },
+        {
+          "dst_output_to_continuous_normalized_moment_scale": 1.0,
+          "maximum_off_diagonal_coefficient": 0.03125000425742636,
+          "mode": [
+            32,
+            31
+          ],
+          "status": "FAIL",
+          "target_absolute_error": 0.0011562106636532343,
+          "target_projection_coefficient": 0.9988437893363468
+        }
+      ],
+      "derived_2d_scale": "(sqrt(2/n)*sqrt(pi/n))^2=2*pi/n^2, equal to normalized midpoint quadrature scale",
+      "dst_assumed_points": "x_j=(j+1/2)*pi/(grid_size-2), j=0,...,grid_size-3",
+      "grid_size": 512,
+      "interior_points_per_axis": 510,
+      "physical_points": "x_j=j*pi/(grid_size-1), j=1,...,grid_size-2"
+    }
+  ],
+  "checkpoint_count": 0,
+  "device": "cpu",
+  "diagnostic_thresholds": {
+    "A_relative_frobenius_error": 0.005,
+    "B_relative_frobenius_error": 0.005,
+    "normalized_residual_score": 0.0001,
+    "note": "diagnostic rules, not a mathematical convergence theorem",
+    "projection_calibration": 0.005
+  },
+  "dtype": "torch.float64",
+  "final_decision": "FAIL",
+  "grid_mode_results": [
+    {
+      "A_maximum_absolute_component_error": 3.175255585818693,
+      "A_relative_frobenius_error": 0.030262444198800583,
+      "B_maximum_absolute_component_error": 1.327111633922982,
+      "B_relative_frobenius_error": 0.015970494038076436,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.024597265995123848,
+        "B_projection_relative_reference_error": 0.02459726599512173,
+        "forcing_projection_norm": 208.168524358872,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 208.168524358872,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 64,
+      "interior_points_per_axis": 62,
+      "largest_residual_mode": [
+        1,
+        8
+      ],
+      "maximum_absolute_residual_moment": 3.1646440044112945,
+      "mode_count": 8,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0011783694470749633,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": false,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1024.9399418129187,
+      "residual_cancellation_indicator": 0.017605016515682248,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 1.207757912519134
+    },
+    {
+      "A_maximum_absolute_component_error": 6.34803156119633,
+      "A_relative_frobenius_error": 0.032207090515081783,
+      "B_maximum_absolute_component_error": 3.039939987922338,
+      "B_relative_frobenius_error": 0.01970447381738704,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.02049059286800424,
+        "B_projection_relative_reference_error": 0.020490592868003494,
+        "forcing_projection_norm": 508.3790848975904,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 508.3790848975904,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 64,
+      "interior_points_per_axis": 62,
+      "largest_residual_mode": [
+        16,
+        1
+      ],
+      "maximum_absolute_residual_moment": 6.314604979349039,
+      "mode_count": 16,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0016103878630809724,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": false,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1753.1394863975695,
+      "residual_cancellation_indicator": 0.019785399874193976,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 2.8232345511826553
+    },
+    {
+      "A_maximum_absolute_component_error": 12.688148915219198,
+      "A_relative_frobenius_error": 0.045229388304067676,
+      "B_maximum_absolute_component_error": 8.943100301789144,
+      "B_relative_frobenius_error": 0.036455488992663466,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.025768748016159245,
+        "B_projection_relative_reference_error": 0.025768748016158922,
+        "forcing_projection_norm": 977.8052915470655,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 977.8052915470655,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 64,
+      "interior_points_per_axis": 62,
+      "largest_residual_mode": [
+        32,
+        1
+      ],
+      "maximum_absolute_residual_moment": 12.617462311727811,
+      "mode_count": 32,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0027782618225086065,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": false,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2448.265241030069,
+      "residual_cancellation_indicator": 0.0323749810007224,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 6.801921850528672
+    },
+    {
+      "grid_size": 64,
+      "interior_points_per_axis": 62,
+      "mode_count": 64,
+      "reason": "mode_count=64 exceeds independent DST modes=62",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "A_maximum_absolute_component_error": 1.5789944503144335,
+      "A_relative_frobenius_error": 0.015023086489600497,
+      "B_maximum_absolute_component_error": 0.004158425500809471,
+      "B_relative_frobenius_error": 3.9723913226034845e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.019660982077840932,
+        "B_projection_relative_reference_error": 0.019660982077839614,
+        "forcing_projection_norm": 207.52743222710774,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 207.52743222710774,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 128,
+      "interior_points_per_axis": 126,
+      "largest_residual_mode": [
+        8,
+        1
+      ],
+      "maximum_absolute_residual_moment": 1.5748360248156896,
+      "mode_count": 8,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.00026285543309701527,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1024.9399418129187,
+      "residual_cancellation_indicator": 0.007493921379276359,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.26941103230366437
+    },
+    {
+      "A_maximum_absolute_component_error": 3.1579048596003396,
+      "A_relative_frobenius_error": 0.01594114708459747,
+      "B_maximum_absolute_component_error": 0.008343132705032508,
+      "B_relative_frobenius_error": 4.227228898586183e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.018774639364782707,
+        "B_projection_relative_reference_error": 0.018774639364782332,
+        "forcing_projection_norm": 509.3883446084495,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 509.3883446084495,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 128,
+      "interior_points_per_axis": 126,
+      "largest_residual_mode": [
+        16,
+        1
+      ],
+      "maximum_absolute_residual_moment": 3.1495617268999645,
+      "mode_count": 16,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0003284764478574651,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1753.1394863975695,
+      "residual_cancellation_indicator": 0.007949720947975187,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.5758650310905344
+    },
+    {
+      "A_maximum_absolute_component_error": 6.315266206670543,
+      "A_relative_frobenius_error": 0.02191406595880195,
+      "B_maximum_absolute_component_error": 0.016850014565660265,
+      "B_relative_frobenius_error": 5.898770024015201e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.015326798112598655,
+        "B_projection_relative_reference_error": 0.015326798112598409,
+        "forcing_projection_norm": 999.1902019697002,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 999.1902019697002,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 128,
+      "interior_points_per_axis": 126,
+      "largest_residual_mode": [
+        32,
+        1
+      ],
+      "maximum_absolute_residual_moment": 6.29841619211482,
+      "mode_count": 32,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0004878767011742785,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2448.265241030069,
+      "residual_cancellation_indicator": 0.010927063051712602,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 1.1944515693934
+    },
+    {
+      "A_maximum_absolute_component_error": 12.626766227645541,
+      "A_relative_frobenius_error": 0.047428693426923754,
+      "B_maximum_absolute_component_error": 0.03487223396401011,
+      "B_relative_frobenius_error": 0.00014577798063182562,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.01314012931575766,
+        "B_projection_relative_reference_error": 0.013140129315756977,
+        "forcing_projection_norm": 1270.3417872901812,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 1270.3417872901812,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 128,
+      "interior_points_per_axis": 126,
+      "largest_residual_mode": [
+        1,
+        64
+      ],
+      "maximum_absolute_residual_moment": 12.59189399370088,
+      "mode_count": 64,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0009241243796921225,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2634.161332608068,
+      "residual_cancellation_indicator": 0.023638026483761853,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 2.4342927075054055
+    },
+    {
+      "A_maximum_absolute_component_error": 0.7874438685839632,
+      "A_relative_frobenius_error": 0.0074919983659613425,
+      "B_maximum_absolute_component_error": 0.0010312794191059682,
+      "B_relative_frobenius_error": 9.810800353210866e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.009731215859895738,
+        "B_projection_relative_reference_error": 0.009731215859894437,
+        "forcing_projection_norm": 205.58475523866522,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 205.58475523866522,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 256,
+      "interior_points_per_axis": 254,
+      "largest_residual_mode": [
+        1,
+        8
+      ],
+      "maximum_absolute_residual_moment": 0.7864125891669291,
+      "mode_count": 8,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 6.554881295231532e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1024.9399418129187,
+      "residual_cancellation_indicator": 0.003741684615464026,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.06718359653325195
+    },
+    {
+      "A_maximum_absolute_component_error": 1.5748695845655496,
+      "A_relative_frobenius_error": 0.007949912831932124,
+      "B_maximum_absolute_component_error": 0.0020655768203955427,
+      "B_relative_frobenius_error": 1.0422998920440518e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.009297584865053629,
+        "B_projection_relative_reference_error": 0.009297584865053271,
+        "forcing_projection_norm": 504.92133115971603,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 504.92133115971603,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 256,
+      "interior_points_per_axis": 254,
+      "largest_residual_mode": [
+        16,
+        1
+      ],
+      "maximum_absolute_residual_moment": 1.5728040077498158,
+      "mode_count": 16,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 8.191222202273247e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1753.1394863975695,
+      "residual_cancellation_indicator": 0.003969850250143412,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.14360355084661688
+    },
+    {
+      "A_maximum_absolute_component_error": 3.149653792596397,
+      "A_relative_frobenius_error": 0.01092903882311797,
+      "B_maximum_absolute_component_error": 0.004147254069979844,
+      "B_relative_frobenius_error": 1.441871353662514e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.007602100738818951,
+        "B_projection_relative_reference_error": 0.007602100738818737,
+        "forcing_projection_norm": 992.5256748679196,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 992.5256748679196,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 256,
+      "interior_points_per_axis": 254,
+      "largest_residual_mode": [
+        1,
+        32
+      ],
+      "maximum_absolute_residual_moment": 3.1455065385363628,
+      "mode_count": 32,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.00012166781216771277,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2448.265241030069,
+      "residual_cancellation_indicator": 0.005457273996835937,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.29787507548238645
+    },
+    {
+      "A_maximum_absolute_component_error": 6.29901982720639,
+      "A_relative_frobenius_error": 0.023657306723546424,
+      "B_maximum_absolute_component_error": 0.008371060639036143,
+      "B_relative_frobenius_error": 3.207834939592924e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.006515113985515909,
+        "B_projection_relative_reference_error": 0.00651511398551543,
+        "forcing_projection_norm": 1264.9137716463704,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 1264.9137716463704,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 256,
+      "interior_points_per_axis": 254,
+      "largest_residual_mode": [
+        64,
+        1
+      ],
+      "maximum_absolute_residual_moment": 6.290648766586716,
+      "mode_count": 64,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.0002305111125113516,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2634.161332608068,
+      "residual_cancellation_indicator": 0.011811604337946209,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.6072034593138702
+    },
+    {
+      "A_maximum_absolute_component_error": 0.524506916460708,
+      "A_relative_frobenius_error": 0.004990329500485432,
+      "B_maximum_absolute_component_error": 0.00045710981442881327,
+      "B_relative_frobenius_error": 4.348690186826766e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.006465353259621793,
+        "B_projection_relative_reference_error": 0.006465353259620498,
+        "forcing_projection_norm": 204.9459146109893,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 204.9459146109893,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 384,
+      "interior_points_per_axis": 382,
+      "largest_residual_mode": [
+        1,
+        8
+      ],
+      "maximum_absolute_residual_moment": 0.5240498066483472,
+      "mode_count": 8,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 2.9107751025716244e-05,
+      "pass_conditions": {
+        "A_relative_error": true,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1024.9399418129187,
+      "residual_cancellation_indicator": 0.0024932602882871144,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.029833696642602534
+    },
+    {
+      "A_maximum_absolute_component_error": 1.0490036232700763,
+      "A_relative_frobenius_error": 0.005295347330323096,
+      "B_maximum_absolute_component_error": 0.0009153211925538862,
+      "B_relative_frobenius_error": 4.619296241491723e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.006178262579328282,
+        "B_projection_relative_reference_error": 0.006178262579327929,
+        "forcing_projection_norm": 503.4509982694954,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 503.4509982694954,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 384,
+      "interior_points_per_axis": 382,
+      "largest_residual_mode": [
+        16,
+        1
+      ],
+      "maximum_absolute_residual_moment": 1.0480883020821852,
+      "mode_count": 16,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 3.637420528915413e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1753.1394863975695,
+      "residual_cancellation_indicator": 0.0026454200400231214,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.06376905557874743
+    },
+    {
+      "A_maximum_absolute_component_error": 2.0979636490547406,
+      "A_relative_frobenius_error": 0.0072797401446104415,
+      "B_maximum_absolute_component_error": 0.0018358212826571907,
+      "B_relative_frobenius_error": 6.386368550393728e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.005053907149859371,
+        "B_projection_relative_reference_error": 0.005053907149859168,
+        "forcing_projection_norm": 990.3252753607744,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 990.3252753607744,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 384,
+      "interior_points_per_axis": 382,
+      "largest_residual_mode": [
+        1,
+        32
+      ],
+      "maximum_absolute_residual_moment": 2.0961278277820177,
+      "mode_count": 32,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 5.402859570349543e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2448.265241030069,
+      "residual_cancellation_indicator": 0.003636685205764047,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.13227633288253438
+    },
+    {
+      "A_maximum_absolute_component_error": 4.195832295959781,
+      "A_relative_frobenius_error": 0.015758156960101615,
+      "B_maximum_absolute_component_error": 0.0036892719497652326,
+      "B_relative_frobenius_error": 1.4172979793649662e-05,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.004331741254736896,
+        "B_projection_relative_reference_error": 0.004331741254736477,
+        "forcing_projection_norm": 1263.1088897006236,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 1263.1088897006236,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 384,
+      "interior_points_per_axis": 382,
+      "largest_residual_mode": [
+        1,
+        64
+      ],
+      "maximum_absolute_residual_moment": 4.192143024029371,
+      "mode_count": 64,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 0.00010236460955383056,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": false,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2634.161332608068,
+      "residual_cancellation_indicator": 0.007871789331485643,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.26964489631422284
+    },
+    {
+      "A_maximum_absolute_component_error": 0.3932094351657355,
+      "A_relative_frobenius_error": 0.0037411223649735956,
+      "B_maximum_absolute_component_error": 0.00025678096265990824,
+      "B_relative_frobenius_error": 2.4428914872491637e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.00484075773152816,
+        "B_projection_relative_reference_error": 0.004840757731526869,
+        "forcing_projection_norm": 204.62814594200455,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 204.62814594200455,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 512,
+      "interior_points_per_axis": 510,
+      "largest_residual_mode": [
+        1,
+        8
+      ],
+      "maximum_absolute_residual_moment": 0.3929526542051468,
+      "mode_count": 8,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 1.6366048810008897e-05,
+      "pass_conditions": {
+        "A_relative_error": true,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1024.9399418129187,
+      "residual_cancellation_indicator": 0.0018694935889595674,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.016774217115037907
+    },
+    {
+      "A_maximum_absolute_component_error": 0.7864116469032678,
+      "A_relative_frobenius_error": 0.003969787979501646,
+      "B_maximum_absolute_component_error": 0.0005141344787503721,
+      "B_relative_frobenius_error": 2.5947576492333962e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.0046261824322565885,
+        "B_projection_relative_reference_error": 0.004626182432256238,
+        "forcing_projection_norm": 502.7194113681851,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 502.7194113681851,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": false,
+      "grid_size": 512,
+      "interior_points_per_axis": 510,
+      "largest_residual_mode": [
+        16,
+        1
+      ],
+      "maximum_absolute_residual_moment": 0.7858975124291754,
+      "mode_count": 16,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 2.0451682418713333e-05,
+      "pass_conditions": {
+        "A_relative_error": true,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": true,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 1753.1394863975695,
+      "residual_cancellation_indicator": 0.001983630704567521,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.035854652011509294
+    },
+    {
+      "A_maximum_absolute_component_error": 1.5727933635952027,
+      "A_relative_frobenius_error": 0.005457443746794747,
+      "B_maximum_absolute_component_error": 0.001030795721498834,
+      "B_relative_frobenius_error": 3.586625057538473e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.00378514053704676,
+        "B_projection_relative_reference_error": 0.003785140537046563,
+        "forcing_projection_norm": 989.2294638611713,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 989.2294638611713,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 512,
+      "interior_points_per_axis": 510,
+      "largest_residual_mode": [
+        1,
+        32
+      ],
+      "maximum_absolute_residual_moment": 1.5717625678836502,
+      "mode_count": 32,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 3.037807199204193e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2448.265241030069,
+      "residual_cancellation_indicator": 0.002726940045856061,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.07437357774762532
+    },
+    {
+      "A_maximum_absolute_component_error": 3.145533201871279,
+      "A_relative_frobenius_error": 0.0118135486838503,
+      "B_maximum_absolute_component_error": 0.002068342430115777,
+      "B_relative_frobenius_error": 7.952783798518947e-06,
+      "actual_training_DST_projection": {
+        "A_projection_relative_reference_error": 0.0032444487108720813,
+        "B_projection_relative_reference_error": 0.0032444487108716944,
+        "forcing_projection_norm": 1262.2096945174824,
+        "label": "STRONG RESIDUAL DIAGNOSTIC \u2014 NOT THE REQUESTED WAN WEAK MOMENT",
+        "minus_laplacian_projection_norm": 1262.2096945174824,
+        "strong_residual_maximum_absolute_moment": 0.0,
+        "strong_residual_weighted_DFR_score": 0.0
+      },
+      "anomalous_cancellation": true,
+      "grid_size": 512,
+      "interior_points_per_axis": 510,
+      "largest_residual_mode": [
+        1,
+        64
+      ],
+      "maximum_absolute_residual_moment": 3.143464859460519,
+      "mode_count": 64,
+      "mode_representable": true,
+      "normalized_residual_score_rho_h": 5.7555792760864353e-05,
+      "pass_conditions": {
+        "A_relative_error": false,
+        "B_relative_error": true,
+        "continuous_reference": true,
+        "finite": true,
+        "no_anomalous_cancellation": false,
+        "normalized_residual_score": true,
+        "projection_calibration": false,
+        "representable": true
+      },
+      "reference_B_weighted_score": 2634.161332608068,
+      "residual_cancellation_indicator": 0.005902752879074856,
+      "status": "FAIL",
+      "weighted_discrete_DFR_score": 0.15161124375827223
+    }
+  ],
+  "grid_sizes": [
+    64,
+    128,
+    256,
+    384,
+    512
+  ],
+  "minimum_passing_grid": {
+    "16": "NONE",
+    "32": "NONE",
+    "64": "NONE",
+    "8": "NONE"
+  },
+  "mode_counts": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "optimizer_count": 0,
+  "parameter_update_count": 0,
+  "problem": {
+    "domain": "(0,pi)^2",
+    "exact_solution": "x(pi-x)y(pi-y)tanh(beta(x+y-pi))",
+    "forcing": "-Delta u*"
+  },
+  "reference_convergence": {
+    "A_relative_frobenius_discrepancy": 2.0499550220758755e-13,
+    "B_relative_frobenius_discrepancy": 1.5499079918274136e-12,
+    "decision": "PASS",
+    "finite": true,
+    "maximum_absolute_component_discrepancy": 3.8338043850671966e-10,
+    "refined_correct_residual_maximum_absolute_moment": 1.937530691442646e-11,
+    "refined_weighted_DFR_score": 5.4543393156923246e-24,
+    "thresholds": {
+      "maximum_component": 1e-08,
+      "maximum_residual": 1e-08,
+      "relative_frobenius": 5e-10,
+      "weighted_DFR_score": 1e-16
+    }
+  },
+  "reference_orders": [
+    384,
+    768
+  ],
+  "spectral_weight": "1/(1+k^2+l^2)",
+  "test_norm": "full H1; ||phi_kl||^2=1+k^2+l^2",
+  "training_objective": "DST-II projection of strong residual -Delta(u)-f",
+  "training_task_count": 0
+}
