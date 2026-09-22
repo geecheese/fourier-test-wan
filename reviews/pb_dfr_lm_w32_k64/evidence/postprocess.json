@@ -1,0 +1,42 @@
+{
+  "checkpoint": "W32_K64_DIRECT/G-LM/final_checkpoint.pt",
+  "phase": "G-LM",
+  "steps": 179,
+  "stop_reason": "capped_not_converged",
+  "cap_type": "time_cap",
+  "accepted": 179,
+  "rejected": 171,
+  "metrics": {
+    "absolute_l2": 7.451472889134215e-05,
+    "absolute_h1": 0.0004377476094342059,
+    "train_DFR64": 4.1567727495997865e-06,
+    "DFR24": 3.2166779231450075e-06,
+    "DFR32": 3.669166570337269e-06,
+    "DFR40": 3.907098108904045e-06,
+    "DFR64": 4.15677274492407e-06
+  },
+  "L2_H1_integration": {
+    "absolute_l2": {
+      "n96": 7.451472889134072e-05,
+      "n128": 7.451472889134215e-05,
+      "absolute_difference": 1.4365678785432934e-18,
+      "relative_difference": 1.9278978799454612e-14
+    },
+    "absolute_h1": {
+      "n96": 0.0004377476094342071,
+      "n128": 0.0004377476094342059,
+      "absolute_difference": 1.1926223897340549e-18,
+      "relative_difference": 2.7244520907276543e-15
+    }
+  },
+  "DFR64_integration": {
+    "n96_DFR64": 4.1567727496018905e-06,
+    "n128_DFR64": 4.15677274492407e-06,
+    "absolute_difference": 4.67782076637481e-15,
+    "relative_difference": 1.1253491719235805e-09,
+    "threshold": 1e-08,
+    "passed": true
+  },
+  "checkpoint_reload_consistent": true,
+  "verification_status": "passed"
+}

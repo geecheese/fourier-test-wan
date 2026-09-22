@@ -1,0 +1,44 @@
+{
+  "run_id": "W32_K64_DIRECT",
+  "width": 32,
+  "architecture": [
+    2,
+    32,
+    32,
+    32,
+    1
+  ],
+  "activation": "tanh",
+  "parameters": 2241,
+  "K_train": 64,
+  "residual_dimension": 4096,
+  "m_gt_p": true,
+  "seed": 2026,
+  "dtype": "float64",
+  "device": "cuda:0",
+  "cuda_visible_devices": "0",
+  "training_quadrature_n": 96,
+  "refinement_quadrature_n": 128,
+  "objective": "full-H1 rho=R/sqrt(1+lambda); DFR64=sum(rho^2); F=0.5*DFR64",
+  "lm_solver": "dual",
+  "lm_system": "(J J^T + mu I)y=rho; delta=-J^T y",
+  "lm_acceptance": "finite candidate and strict F decrease",
+  "lm_damping_divisor": 2,
+  "lm_step_cap": 2000,
+  "lm_wall_seconds_cap": 14400,
+  "stopping": {
+    "window_steps": 100,
+    "consecutive_windows": 3,
+    "relative_threshold": 0.0001
+  },
+  "adam": {
+    "updates": 3000,
+    "lr": 0.001
+  },
+  "checkpoint_frequency": {
+    "Adam3000": 100,
+    "G-LM": 50
+  },
+  "initial_weights_source": "CONFIGURE_WITH_W32_INITIAL_CHECKPOINT",
+  "adam_source": "new_adam_required"
+}

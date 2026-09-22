@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "cuda_smoke": true,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "device": "cuda:0",
+  "dtype": "float64",
+  "parameters": 2241,
+  "residual_dimension": 4096,
+  "m_gt_p": true,
+  "jacobian_shape": [
+    4096,
+    2241
+  ],
+  "solve_mode": "dual",
+  "matrix_shape": [
+    4096,
+    4096
+  ],
+  "rho_finite": true,
+  "J_finite": true,
+  "directional_relative_error": 9.42703638959871e-10,
+  "directional_check_passed": true,
+  "solve_finite": true,
+  "linear_system_relative_residual": 3.823921512074206e-12,
+  "delta_finite": true,
+  "delta_norm": 105.05745976763563,
+  "DFR64_n96": 32963.76047956395,
+  "DFR64_n128": 32963.76047956261,
+  "refinement_absolute_difference": 1.3387762010097504e-09,
+  "refinement_relative_difference": 4.0613576289021574e-14,
+  "F_initial": 16481.88023978197,
+  "F_candidate": 3.3990186011717226e+34,
+  "candidate_finite": true,
+  "weights_restored_exactly": true,
+  "peak_gpu_allocated": 3193597952,
+  "peak_gpu_reserved": 3430940672,
+  "total_gpu_memory": 25447170048,
+  "elapsed_seconds": 238.96126437187195,
+  "training_quadrature_n": 96,
+  "refinement_quadrature_n": 128,
+  "integration_threshold_used": 1e-08
+}
