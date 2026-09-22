@@ -1,0 +1,9 @@
+{
+  "n96_DFR64": 2.092091893878785,
+  "n128_DFR64": 2.0920918938724946,
+  "absolute_difference": 6.290523657526137e-12,
+  "relative_difference": 3.0068103967853342e-12,
+  "threshold": 1e-08,
+  "passed": true,
+  "reload_finite": true
+}

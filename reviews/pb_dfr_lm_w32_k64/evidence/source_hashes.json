@@ -1,0 +1,13 @@
+{
+  "source/capacity_study/run_capacity_study.py": "0c4fe5ad597c298385b73659be94e4d16b760cd4d3fd1dbee45c66d0768eeaeb",
+  "source/fourier_resolution_study/run_study.py": "c827e4b6e5eab1b38fa1e438aff60bf2d89d3ece436b7490d1fc52c947f7ecf0",
+  "source/full_solver/scripts/run_full_solver.py": "49ba44fe5774a1b65c75a2bcc6e7d46f890e315ff51de3b53f21d70cfaea17a5",
+  "source/parameter_study/W32_K64_DIRECT/background.py": "9cd96ea68eb5b8ae0423579fe1f405516c757e2f094aee9b54487e41569623f9",
+  "source/parameter_study/W32_K64_DIRECT/frozen_config.json": "1b8eb2b873c7f2ea648c28d528b35288fec2acc01113d7273adaa806f434539c",
+  "source/parameter_study/W32_K64_DIRECT/numerics.py": "366a3f3243ef0cf4926860a6aef8dbab8a14fefbd2ec5e574d4938547fd1e5af",
+  "source/parameter_study/W32_K64_DIRECT/postprocess_only.py": "91f67f5044beae2cbe806be14b6e395a1b197de58c9381c2373b9eb2de55594e",
+  "source/scripts/pb_benchmark.py": "dc89dfa4fcb6e26d0493736a29e2c831a5d1d3d148fe8cc7f1446376df96b70e",
+  "source/scripts/pb_fourier_residual.py": "09f7798156d9cb87881844a22fcb82e6347723977f52a52877a323c8b97ae95e",
+  "source/scripts/train_pb_dfr_smoke.py": "c02fea68be918eab5cb1a8af730a32b655dde86d7ff6a1934123242e9e282547",
+  "source/width64_optimizer_study/run_width64_gpu.py": "b57f3bd965336dbc7bcad9abf130d3a2545e593d5c903493f2c6c88efa5a0332"
+}
