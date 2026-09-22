@@ -2,6 +2,17 @@
 
 This candidate research repository separates **Original WAN (learned neural test)**, **Fourier-strong DFR**, and **Fourier-test WAN (explicit weak moments)** for elliptic problems. It is prepared for source review and reproducibility inspection; it contains no checkpoints or full run directories.
 
+## Poisson–Boltzmann DFR: LM Implementation
+
+This repository now includes a review snapshot of the Poisson–Boltzmann interface Fourier weak-residual neural solver. It uses singularity splitting and a hard-boundary ansatz, with an `Adam3000 → direct LM` workflow and full-H1 DFR weights `1 + lambda`. The snapshot is provided for code and computational-cost review; it does not claim that staged performance measurements have identified a single bottleneck.
+
+- [English LM code review](reviews/pb_dfr_lm_w32_k64/LM_CODE_REVIEW.md)
+- [Residual and Jacobian implementation](reviews/pb_dfr_lm_w32_k64/source/parameter_study/W32_K64_DIRECT/numerics.py)
+- [Direct LM training loop and checkpoint handling](reviews/pb_dfr_lm_w32_k64/source/parameter_study/W32_K64_DIRECT/background.py)
+- [W32/K64 frozen configuration](reviews/pb_dfr_lm_w32_k64/source/parameter_study/W32_K64_DIRECT/frozen_config.json)
+- [Endpoint results and verification](reviews/pb_dfr_lm_w32_k64/evidence/postprocess.json)
+- [Source and checkpoint provenance](reviews/pb_dfr_lm_w32_k64/evidence/RUN_RECORD.md)
+
 ## Research question
 
 Does replacing the learned adversarial test network in WAN with a fixed, normalized Fourier test space produce a more accurate and efficient finite-dimensional residual objective, and are the observed gains robust beyond solutions aligned with a few low Fourier modes?
